@@ -41,17 +41,33 @@ public class CalculadoraTestes
     }
 
 
+    // [Theory] // testando varios numeros no mesmo metodo
+    // [InlineData(2)]
+    // [InlineData(4)]
+    // [InlineData(6)]
+    // [InlineData(8)]
+    // [InlineData(10)]
+    // public void SomarNUmTest3( int numero) // deve verificar se é PAR, deve setar (int numero)
+    // {
+    //     // Act
+    //     bool resultado = _calc.EhPar(numero);
+    //     // Assert
+    //     Assert.True(resultado);
+    // }
+
+
     [Theory] // testando varios numeros no mesmo metodo
-    [InlineData(2)]
-    [InlineData(4)]
-    [InlineData(6)]
-    [InlineData(8)]
-    [InlineData(10)]
-    public void SomarNUmTest3( int numero) // deve verificar se é PAR, deve setar (int numero)
+    [InlineData(new int[] { 2, 4})]
+    [InlineData(new int[] { 6, 8, 10})]
+    public void SomarNUmTest3( int[] numeros) // deve verificar se é PAR, deve setar (int numero)
     {
-        // Act
-        bool resultado = _calc.EhPar(numero);
-        // Assert
-        Assert.True(resultado);
+        // Act / Assert
+
+        Assert.All(numeros, num => Assert.True(_calc.EhPar(num)));
+        
+        // foreach (var item in numeros)
+        // {
+        //     Assert.True(_calc.EhPar(item));      //*Pode ser feito dessa maneira também
+        // }
     }
 }

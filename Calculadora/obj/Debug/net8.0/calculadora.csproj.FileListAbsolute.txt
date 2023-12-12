@@ -12,3 +12,4 @@ C:\Users\Thiago\OneDrive\Documentos\Programer\DIO\Avande\ModeloTestesDIO\calcula
 C:\Users\Thiago\OneDrive\Documentos\Programer\DIO\Avande\ModeloTestesDIO\calculadora\obj\Debug\net8.0\calculadora.pdb
 C:\Users\Thiago\OneDrive\Documentos\Programer\DIO\Avande\ModeloTestesDIO\calculadora\obj\Debug\net8.0\calculadora.genruntimeconfig.cache
 C:\Users\Thiago\OneDrive\Documentos\Programer\DIO\Avande\ModeloTestesDIO\calculadora\obj\Debug\net8.0\ref\calculadora.dll
+C:\Users\Thiago\OneDrive\Documentos\Programer\DIO\Avande\ModeloTestesDIO\Calculadora\obj\Debug\net8.0\calculadora.sourcelink.json
